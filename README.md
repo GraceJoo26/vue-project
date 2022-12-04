@@ -1,2 +1,2 @@
-# vue_login
+# vue-project
 This is Mini project of Vue.js.
