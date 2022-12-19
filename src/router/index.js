@@ -16,10 +16,10 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   {
-    path: '/kakaologin',
+    path: '/login',
     name: 'kakaologin',
-    component: () => import('../views/KakaoLogin.vue')
-  }
+    component: () => import('../views/Kakaologin.vue')
+  },
 ]
 
 const router = createRouter({
