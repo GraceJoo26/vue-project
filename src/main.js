@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router'
 
-createApp(App).mount('#app')
+createApp(App).use(router).mount('#app')
 window.Kakao.init("0dc55dd315dccbb6543addbf16576203");
