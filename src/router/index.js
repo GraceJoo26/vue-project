@@ -20,6 +20,11 @@ const routes = [
     name: 'kakaologin',
     component: () => import('../views/Kakaologin.vue')
   },
+  {
+    path: '/event1',
+    name: 'event1',
+    component: () => import('../views/Event1.vue')
+  },
 ]
 
 const router = createRouter({
