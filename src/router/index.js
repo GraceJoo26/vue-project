@@ -30,6 +30,21 @@ const routes = [
     name: 'event2',
     component: () => import('../views/Event2.vue')
   },
+  {
+    path: '/event3',
+    name: 'event3',
+    component: () => import('../views/Event3.vue')
+  },
+  {
+    path: '/event4',
+    name: 'event4',
+    component: () => import('../views/Event4.vue')
+  },
+  {
+    path: '/event5',
+    name: 'event5',
+    component: () => import('../views/Event5.vue')
+  },
 ]
 
 const router = createRouter({
