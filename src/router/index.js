@@ -25,6 +25,11 @@ const routes = [
     name: 'event1',
     component: () => import('../views/Event1.vue')
   },
+  {
+    path: '/event2',
+    name: 'event2',
+    component: () => import('../views/Event2.vue')
+  },
 ]
 
 const router = createRouter({
